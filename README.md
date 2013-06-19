@@ -9,7 +9,20 @@
 <li>Run usually the method <code>alert()</code> - <code>alert("Something")</code></li>
 <li>Use the second parameter to set the button's label. - <code>alert("Something", "OK")</code></li>
 <li>All done!</li>
+<li>Exemple with callbacks:</li>
 </ul>
+<code>
+    alert("Hello World!",
+    {
+        label: "YES",
+        success: function () {
+            console.log("User clicked YES");
+        }
+    }
+
+    );
+</code>
+
 
 
 
