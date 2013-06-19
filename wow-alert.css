@@ -24,6 +24,8 @@
     min-height:50px;
     max-width:75%;
     padding: 15px 20px;
+    left: 50%;
+    top: 50%;
 }
 .wow-alert-content p {
     font-family: Helvetica, Arial, sans-serif;
