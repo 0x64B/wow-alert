@@ -11,17 +11,17 @@
 <li>All done!</li>
 </ul>
 <h4>Exemple with callback</h4>
-<code>
-    alert("Hello World!",<br />
-    {<br />
-        label: "YES",<br />
-        success: function () {<br />
-            console.log("User clicked YES");<br />
-        }<br />
-    }<br />
+<pre>
+    alert("Hello World!",
+    {
+        label: "YES",
+        success: function () {
+            console.log("User clicked YES");
+        }
+    }
 
-    ); <br />
-</code>
+    );
+</pre>
 
 
 
