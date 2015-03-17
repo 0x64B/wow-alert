@@ -1,0 +1,63 @@
+body
+{
+    font-family: monospace;
+    margin: 0 auto;
+    color: #fff;
+    background: #0080c0;
+}
+button
+{
+    font-size: 16px;
+    font-variant: small-caps;
+    padding: 10px;
+    cursor: pointer;
+    -webkit-transition: background 2s, color 2s, -webkit-transform 2s; /* For Safari 3.1 to 6.0 */
+    transition: background 2s, color 2s, transform 2s;
+    border: 1px solid #fff;
+}
+button:hover
+{
+    color: #fff;
+    background: #000;
+}
+.header
+{
+    font-size: 22px;
+    margin: 20px 0 20px 0;
+    padding: 10px;
+    text-align: center;
+}
+.container
+{
+    margin: 20px 0 20px 0;
+    padding: 10px;
+    text-align: center;
+    background: #dcdcdc;
+}
+.footer
+{
+    font-size: 10px;
+    padding: 10px;
+    text-align: center;
+}
+.wrapper
+{
+    text-align: center;
+}
+.description
+{
+    width: 433px;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: left;
+}
+ul li
+{
+    line-height: 200%;
+}
+.code
+{
+    padding: 5px;
+    color: #000;
+    background: #fff;
+}
