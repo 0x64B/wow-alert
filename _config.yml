@@ -1,0 +1,8 @@
+title: WOW Alert
+description: jQuery Plugin to override native alert() method.
+google_analytics: UA-41877839-1
+show_downloads: true
+theme: jekyll-theme-hacker
+
+gems:
+  - jekyll-mentions
